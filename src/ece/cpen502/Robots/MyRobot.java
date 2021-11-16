@@ -24,7 +24,6 @@ public class MyRobot extends AdvancedRobot {
     // ---------- program components
     private LearningAgent agent;
     private EnemyRobot enemyTank;
-
     // -------- reward
     //the reward policy should be killed > bullet hit > hit robot > hit wall > bullet miss > got hit by bullet
     private double currentReward = 0.0;
@@ -34,7 +33,6 @@ public class MyRobot extends AdvancedRobot {
     private final double loseReward = -10;
 
     private double fireMagnitude;
-
 
     public void run() {
 
