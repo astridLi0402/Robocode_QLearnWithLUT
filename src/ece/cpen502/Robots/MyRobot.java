@@ -31,11 +31,9 @@ public class MyRobot extends AdvancedRobot {
     private final double badInstantReward = -2.0;
     private final double winReward = 10;
     private final double loseReward = -10;
-
     private double fireMagnitude;
 
     public void run() {
-
         // -------------------------------- Initialize robot tank parts ------------------------------------------------
         setBulletColor(Color.red);
         setGunColor(Color.green);
